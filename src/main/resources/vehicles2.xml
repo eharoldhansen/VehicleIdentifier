@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+	<vehicle>
+		<id>car 1</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>left rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>right rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>left front</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>right front</position>
+				<material>metal</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<internalCombustion />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>hang glider 1</id>
+		<frame>
+			<material>plastic</material>
+		</frame>
+		<powertrain>
+			<bernoulli />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>unidentified 1</id>
+		<frame>
+			<material>plastic</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>left rear</position>
+				<material>plastic</material>
+			</wheel>
+			<wheel>
+				<position>right rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front</position>
+				<material>plastic</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<human />
+		</powertrain>
+	</vehicle>
+	<vehicle>
+		<id>unidentified 2</id>
+		<frame>
+			<material>metal</material>
+		</frame>
+		<wheels>
+			<wheel>
+				<position>rear</position>
+				<material>metal</material>
+			</wheel>
+			<wheel>
+				<position>front</position>
+				<material>plastic</material>
+			</wheel>
+		</wheels>
+		<powertrain>
+			<human />
+		</powertrain>
+	</vehicle>
+</vehicles>
